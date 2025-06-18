@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #e0e7ff 0%, #6366f1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: #22223b;
+}
+
+.profile-card {
+  width: min(85%, 400px);
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  box-shadow: 16px 16px 48px rgba(99, 102, 241, 0.30);
+  transform: scale(1.04);
+}
+
+.top {
+  background: linear-gradient(135deg, #6366f1 60%, #a5b4fc 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.profile-image {
+  margin-bottom: 1rem;
+}
+
+.profile-image img {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.profile-image img:hover{
+  transform: scale(1.05);
+}
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.profile-info h2 {
+  font-size: 1.085rem;
+  color: #e0e7ff;
+  margin-bottom: 0.5rem;
+}
+
+.bottom {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 1rem 1.5rem 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.social svg {
+  fill: #6366f1;
+  transition: fill 0.2s, transform 0.2s;
+}
+
+.social:hover svg {
+  fill: #22223b;
+  transform: scale(1.1);
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  justify-content: center;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.skills li {
+  background: #f3f4f6;           /* Soft neutral background */
+  color: #6366f1;                /* Indigo accent text */
+  padding: 0.3rem 0.9rem;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #e0e7ff;     /* Subtle border */
+  box-shadow: 0 1px 4px rgba(99, 102, 241, 0.06);
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.2px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.skills li:hover {
+  background: #6366f1;
+  color: #fff;
+  cursor: pointer;
+}
