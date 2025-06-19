@@ -2,7 +2,7 @@
 A modern, responsive profile card built with HTML and CSS. This project features a clean layout, interactive social links, and a customizable color palette—ideal for personal or professional portfolios.
 
 ## 🚀 Live Demo
-🌐 **[View Live Website](https://github.com/selfxiron/profile-card)**
+🌐 **[View Live Website](https://selfxiron.github.io/profile-card)**
 
 ## ✨ Features
 - Responsive design for all devices
