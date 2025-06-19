@@ -1,6 +1,9 @@
 # Profile Card
 A modern, responsive profile card built with HTML and CSS. This project features a clean layout, interactive social links, and a customizable color palette—ideal for personal or professional portfolios.
 
+## 🚀 Live Demo
+🌐 **[View Live Website](https://github.com/selfxiron/profile-card)**
+
 ## ✨ Features
 - Responsive design for all devices
 - Customizable colors and content
@@ -23,8 +26,5 @@ Open `index.html` directly in your browser.
 - Social Links: Update the `href` attributes for your social profiles.
 - Skills: Add or edit skill items in the `.skills` section.
 - Colors & Styles: Modify `style.css` to change the color palette, fonts, or layout.
-
-## 📄 License
-This project is open source and available under the MIT License.
 
 Made with ❤️ by [selfxiron](https://github.com/selfxiron)
